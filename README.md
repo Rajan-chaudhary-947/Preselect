@@ -1,27 +1,6 @@
 # Perfume Shop - Full Stack Application
 
-A modern, responsive full-stack e-commerce application for selling luxury perfumes. Built with **React**, **Node.js**, **MongoDB**, and **Tailwind CSS**.
-
-## 🚀 Features
-
-### Frontend
-- ✨ Responsive design with Tailwind CSS
-- 🎨 Interactive hover effects and smooth transitions
-- 🏠 Dynamic homepage with product filtering
-- 🖼️ Image gallery with zoom functionality
-- ⭐ Star rating system and reviews
-- 📱 Mobile-optimized responsive layout
-- 🔄 Real-time data fetching from backend
-- 💬 Add, view, and delete reviews
-- 🌐 Social media sharing buttons (Twitter, Facebook, LinkedIn)
-
-### Backend
-- 🗄️ MongoDB database with Mongoose ODM
-- 🛣️ RESTful API routes
-- ✅ Input validation and error handling
-- 📊 Product rating calculation
-- 🔍 Product filtering and search
-- ⚡ Efficient database queries
+A modern, responsive full-stack e-commerce application for selling luxury perfumes. Built with **React**, **Node.js**, **MongoDB**, and **Tailwind CSS**
 
 ## 📋 Prerequisites
 
@@ -158,40 +137,6 @@ Preselect/
 - **CORS** - Cross-origin resource sharing
 - **Dotenv** - Environment variable management
 
-## 🎯 Key Features Explained
-
-### 1. **Product Display**
-- Products fetched from MongoDB
-- Images stored as URLs
-- Responsive grid layout (1-4 columns based on screen size)
-- Category-based filtering
-
-### 2. **Product Details Page**
-- Image gallery with thumbnail selection
-- Detailed product information
-- Size selection
-- Average rating calculation
-- Add to cart functionality
-
-### 3. **Reviews System**
-- View all reviews for a product
-- Star rating system (1-5)
-- Add new reviews with validation
-- Delete reviews
-- Real-time rating updates
-- Review count and average rating display
-
-### 4. **Social Sharing**
-- Share on Twitter
-- Share on Facebook
-- Share on LinkedIn
-- Dynamic sharing with product details
-
-### 5. **Responsive Design**
-- Mobile-first approach
-- Breakpoints: sm (640px), md (768px), lg (1024px), xl (1280px)
-- Touch-friendly interface
-- Smooth animations and transitions
 
 ## 🚀 Available Scripts
 
@@ -277,40 +222,6 @@ PORT=5000
 
 5. **Access the application** at `http://localhost:3000`
 
-## 🐛 Troubleshooting
-
-### MongoDB Connection Issues
-- Ensure MongoDB is running
-- Check `MONGO_URI` in `.env` file
-- Verify MongoDB is accessible
-
-### API Connection Issues
-- Ensure backend is running on port 5000
-- Check `VITE_API_URL` in frontend `.env`
-- Check browser console for CORS errors
-
-### Frontend Not Loading
-- Clear browser cache
-- Check if Vite dev server is running
-- Verify port 3000 is available
-
-## 📝 Code Quality
-
-- ✅ Clean, organized component structure
-- ✅ Proper error handling
-- ✅ Loading states
-- ✅ Responsive design
-- ✅ Reusable components
-- ✅ Consistent naming conventions
-- ✅ Comments for complex logic
-
-## 🎓 Learning Resources
-
-- [React Documentation](https://react.dev)
-- [Vite Documentation](https://vitejs.dev)
-- [Tailwind CSS Documentation](https://tailwindcss.com)
-- [MongoDB Documentation](https://docs.mongodb.com)
-- [Express.js Documentation](https://expressjs.com)
 
 ## 📄 License
 
