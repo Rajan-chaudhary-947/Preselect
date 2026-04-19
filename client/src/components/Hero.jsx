@@ -62,7 +62,7 @@ function Hero() {
 
           {/* PERFUME */}
           <motion.img
-            src="/luxury.png"
+            src="https://res.cloudinary.com/duv61nqyl/image/upload/v1776591579/luxury_un3ayw.png"
             alt="Luxury perfume bottle"
             className="w-[110px] sm:w-[140px] md:w-[220px] lg:w-[260px] relative pl-4 z-10 drop-shadow-[0_30px_60px_rgba(0,0,0,0.7)]"
             initial={{ y: 200, opacity: 0, rotate: -8 }}

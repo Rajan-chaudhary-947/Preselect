@@ -72,7 +72,7 @@ export const useProductStore = create((set) => ({
       const res = await axiosInstance.get(`/products${query}`);
 
       set({
-        products: res.data,
+        products: Array.isArray(res.data) ? res.data : [],
         loading: false,
       });
     } catch {

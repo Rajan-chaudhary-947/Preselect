@@ -97,7 +97,7 @@ const HomePage = () => {
           </div>
         ) : error ? (
           <div className="text-center text-red-400">{error}</div>
-        ) : !products || products.length === 0 ? (
+        ) : !Array.isArray(products) || products.length === 0 ? (
           <div className="text-center py-20 text-gray-400">
             No products found
           </div>
