@@ -9,10 +9,12 @@ const router = express.Router();
 // Product routes
 router.get("/", getProducts);
 router.get("/search", searchProducts);
-router.get("/:id", getProductById);
+
 
 
 // Review routes
 router.get("/:id/reviews", getReviewsByProduct);
+
+router.get("/:id", getProductById);
 
 export default router;
